@@ -107,13 +107,6 @@ public partial class LocalizationManager
             [nameof(DownloadButton)] = "DESCARGAR",
             [nameof(CancelButton)] = "CANCELAR",
             // Dialog messages
-            [nameof(UkraineSupportTitle)] = "¡Gracias por apoyar a Ucrania!",
-            [nameof(UkraineSupportMessage)] = """
-                Mientras Rusia libra una guerra genocida contra mi país, estoy agradecido con todos los que continúan apoyando a Ucrania en nuestra lucha por la libertad.
-
-                Haz clic en MÁS INFORMACIÓN para encontrar formas en que puedes ayudar.
-                """,
-            [nameof(LearnMoreButton)] = "MÁS INFORMACIÓN",
             [nameof(UnstableBuildTitle)] = "Advertencia: versión inestable",
             [nameof(UnstableBuildMessage)] = """
                 Estás usando una versión de desarrollo de {0}. Estas versiones no han sido probadas exhaustivamente y pueden contener errores.

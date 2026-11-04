@@ -16,9 +16,6 @@
     <img src="favicon.png" alt="Icon" />
 </p>
 
-> **Made in 🇺🇦 Ukraine — [despite Russia's best efforts](https://tyrrrz.me/ukraine)**.
-> Using this project or its source code comes with the implicit agreement that you condemn Russia's war of aggression against Ukraine, recognize Russia as a terrorist state, and support Ukraine's territorial integrity.
-
 **YoutubeDownloader** is an application that lets you download videos from YouTube.
 You can copy-paste the URL of any video, playlist, or channel and download it directly in a format of your choice.
 

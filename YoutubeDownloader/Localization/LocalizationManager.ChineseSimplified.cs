@@ -102,13 +102,6 @@ public partial class LocalizationManager
             [nameof(DownloadButton)] = "下载",
             [nameof(CancelButton)] = "取消",
             // Dialog messages
-            [nameof(UkraineSupportTitle)] = "感谢你支持乌克兰！",
-            [nameof(UkraineSupportMessage)] = """
-                由于俄罗斯正对我的国家发动一场种族灭绝战争，我向所有在我们的自由之战中继续支持乌克兰的人表示感谢。
-
-                点击“了解更多”以寻找你可以提供帮助的途径。
-                """,
-            [nameof(LearnMoreButton)] = "了解更多",
             [nameof(UnstableBuildTitle)] = "不稳定版本警告",
             [nameof(UnstableBuildMessage)] = """
                 你正在使用 {0} 的开发版本。这些版本未经严格测试，可能包含漏洞。

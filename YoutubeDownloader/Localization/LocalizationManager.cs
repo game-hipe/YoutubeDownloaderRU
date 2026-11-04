@@ -163,9 +163,6 @@ public partial class LocalizationManager
 
     // ---- Dialog messages ----
 
-    public string UkraineSupportTitle => Get();
-    public string UkraineSupportMessage => Get();
-    public string LearnMoreButton => Get();
     public string UnstableBuildTitle => Get();
     public string UnstableBuildMessage => Get();
     public string SeeReleasesButton => Get();
