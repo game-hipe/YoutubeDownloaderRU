@@ -105,13 +105,6 @@ public partial class LocalizationManager
         [nameof(DownloadButton)] = "다운로드",
         [nameof(CancelButton)] = "취소",
         // Dialog messages
-        [nameof(UkraineSupportTitle)] = "우크라이나를 지원해 주셔서 감사합니다!",
-        [nameof(UkraineSupportMessage)] = """
-            러시아가 우리나라를 상대로 집단학살 전쟁을 벌이고 있는 지금, 자유를 위한 우리의 싸움에서 우크라이나와 계속 함께해 주시는 모든 분들께 감사드립니다.
-
-            도움이 될 수 있는 방법을 알아보려면 '자세히 알아보기'를 클릭하세요.
-            """,
-        [nameof(LearnMoreButton)] = "자세히 알아보기",
         [nameof(UnstableBuildTitle)] = "불안정한 빌드 경고",
         [nameof(UnstableBuildMessage)] = """
             {0}의 개발 빌드를 사용하고 있습니다. 이 빌드들은 충분히 테스트되지 않았으며, 버그가 포함되어 있을 수 있습니다.

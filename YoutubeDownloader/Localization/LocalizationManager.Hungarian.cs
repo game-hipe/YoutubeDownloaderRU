@@ -103,13 +103,6 @@ public partial class LocalizationManager
             [nameof(DownloadButton)] = "LETÖLTÉS",
             [nameof(CancelButton)] = "MÉGSE",
             // Dialog messages
-            [nameof(UkraineSupportTitle)] = "Köszönet Ukrajna támogatásáért!",
-            [nameof(UkraineSupportMessage)] = """
-                Mialatt Oroszország népirtó háborút vív hazám ellen, hálás vagyok mindenkinek, aki továbbra is Ukrajna mellett áll a szabadságért folytatott harcunkban.
-
-                A TUDJ MEG TÖBBET gombra kattintva megtudhatod, hogyan segíthetsz.
-                """,
-            [nameof(LearnMoreButton)] = "Tudj meg többet",
             [nameof(UnstableBuildTitle)] = "Figyelmeztetés nem stabil kiadásra",
             [nameof(UnstableBuildMessage)] = """
                 A(z) {0} fejlesztői verzióját használod. Ezek a kiadások még nincsenek alaposan tesztelve és hibákat tartalmazhatnak.

@@ -104,13 +104,6 @@ public partial class LocalizationManager
             [nameof(DownloadButton)] = "ЗАВАНТАЖИТИ",
             [nameof(CancelButton)] = "СКАСУВАТИ",
             // Dialog messages
-            [nameof(UkraineSupportTitle)] = "Дякуємо за підтримку України!",
-            [nameof(UkraineSupportMessage)] = """
-                Поки Росія веде геноцидну війну проти моєї країни, я вдячний кожному, хто продовжує підтримувати Україну у нашій боротьбі за свободу.
-
-                Натисніть ДІЗНАТИСЬ БІЛЬШЕ, щоб знайти способи допомогти.
-                """,
-            [nameof(LearnMoreButton)] = "ДІЗНАТИСЬ БІЛЬШЕ",
             [nameof(UnstableBuildTitle)] = "Попередження про нестабільну збірку",
             [nameof(UnstableBuildMessage)] = """
                 Ви використовуєте збірку розробки {0}. Ці збірки не пройшли ретельного тестування та можуть містити помилки.

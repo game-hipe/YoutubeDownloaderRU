@@ -15,9 +15,6 @@ public partial class SettingsService()
     : SettingsBase(StartOptions.Current.SettingsPath, SettingsSerializerContext.Default)
 {
     [ObservableProperty]
-    public partial bool IsUkraineSupportMessageEnabled { get; set; } = true;
-
-    [ObservableProperty]
     public partial ThemeVariant Theme { get; set; }
 
     [ObservableProperty]

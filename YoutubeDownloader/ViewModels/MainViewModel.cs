@@ -24,26 +24,6 @@ public partial class MainViewModel(
 
     public DashboardViewModel Dashboard { get; } = viewModelManager.GetDashboardViewModel();
 
-    private async Task ShowUkraineSupportMessageAsync()
-    {
-        if (!settingsService.IsUkraineSupportMessageEnabled)
-            return;
-
-        var dialog = viewModelManager.GetMessageBoxViewModel(
-            localizationManager.UkraineSupportTitle,
-            localizationManager.UkraineSupportMessage,
-            localizationManager.LearnMoreButton,
-            localizationManager.CloseButton
-        );
-
-        // Disable this message in the future
-        settingsService.IsUkraineSupportMessageEnabled = false;
-        settingsService.Save();
-
-        if (await dialogManager.ShowDialogAsync(dialog) == true)
-            Process.StartShellExecute("https://tyrrrz.me/ukraine?source=youtubedownloader");
-    }
-
     private async Task ShowDevelopmentBuildMessageAsync()
     {
         if (!Program.IsDevelopmentBuild)
@@ -102,7 +82,6 @@ public partial class MainViewModel(
 
     public override async Task InitializeAsync()
     {
-        await ShowUkraineSupportMessageAsync();
         await ShowDevelopmentBuildMessageAsync();
         await CheckForUpdatesAsync();
     }
