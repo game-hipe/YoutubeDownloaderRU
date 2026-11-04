@@ -1,6 +1,7 @@
 using System;
 using System.Reflection;
 using Avalonia;
+using YoutubeDownloader.Core.Utils;
 using YoutubeDownloader.Utils;
 
 namespace YoutubeDownloader;
@@ -27,6 +28,11 @@ public static class Program
     [STAThread]
     public static int Main(string[] args)
     {
+        // Disable the region-based blocking that was added to the upstream
+        // YoutubeExplode package, so the app works identically for users in
+        // any country. Must run before the first YoutubeClient is created.
+        RegionCheck.Disable();
+
         // Build and run the app
         var builder = BuildAvaloniaApp();
 
